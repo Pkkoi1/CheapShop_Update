@@ -1,0 +1,192 @@
+body
+{
+    margin: 0px;
+    width: 100%;
+}
+.container
+{
+    min-width: 100%;
+    /* min-height: 100vh; */
+   
+}
+.justify-content-center
+{
+    margin: 25px 150px 0 150px;
+}
+.proName
+{
+    color: #ffff;
+    font-size: 20px;
+}
+.product img
+{
+    width: 100%;
+    max-width: 80%;
+    height: 393px;
+}
+.detail
+{
+    text-align: left;
+}
+.detail-text
+{
+    background-color: #d9d9d9;
+    width: 100%;
+    max-width: 80%;
+    margin: 0;
+    transform: translateX(12.45%);;
+    margin-top: 20px;
+}
+.listDetails
+{
+    list-style-type: none;
+    
+}
+
+.status
+{
+    background-color: #389728;
+    width: fit-content;
+    border-radius: 20px;
+    color: #ffff;
+}
+.method
+{
+    color: #ffff;
+    font-size: 20px;
+}
+.Price
+{
+   font-size: 159%;
+   color: #ef0b0b;
+}
+.salePrice
+{
+    color: #B7BFC3;
+    font-size: 117%;
+}
+.link-a
+{
+    color: #b1b1b1;
+    display: flex;
+    flex-direction: row;
+    font-size: 80%;
+    gap: 20px;
+    align-items: baseline;
+}
+.link-a a
+{
+    text-decoration: none;
+    color: #b1b1b1;
+    font-size: 90%;
+    
+}
+.link-a a:hover
+{
+color: white;
+    
+}
+.special-details_list
+{
+    text-align: left;
+    color: #e05314;
+    
+}
+.special-details_list span
+{
+    color: #ef0b0b;
+}
+.special-details_list li
+{
+    margin-top: 10px;
+    color: #ffff;
+}
+.special-details
+{
+    border-radius: 41px;
+    border: 2px #e05314 solid;
+}
+.more
+{
+    text-decoration: none;
+    color: #e05314;
+}
+.buy-btn
+{
+    background-color: #ef0b0b;
+    border: 0;
+    border-radius: 15px;
+    color: #ffff;
+    min-height: 8vh;    
+    width: 75%;
+}
+.buy-btn:hover
+{
+    background-color: #d62929;
+}
+.buy-btn_others
+{
+    margin-top: 20px;
+}
+.buy-btn_others_btn
+{
+    background-color: #6A6B6B;
+    border: 0;
+    border-radius: 15px;
+    color: #ffff;
+    width: 36%;
+    min-height: 8vh;
+}
+
+.gradient-img
+{
+    background-image: linear-gradient(180deg, rgba(234, 234, 234, 0), rgba(234, 234, 234, 1)), url("../Image/describe.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center center;
+}
+.see-more
+{
+    transform: translateY(390%);
+}
+.see-more-btn
+{
+    border: 1px #e05314 solid;
+    border-radius: 21px;
+    color: #e05314;
+    width: 179px;
+    height: 51px;
+}
+
+@media (max-width : 1023px)
+{
+    .search
+    {
+        display: none;
+    }
+    .menu-Tool
+    {
+        display: none;
+    }
+    .menuSupport
+    {
+        display: none;
+    }
+    .cart
+    {
+        display: none;
+    }
+    .menu_nev_mobile_Tool
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100vh;
+        align-items: center;
+    }
+    .logo
+    {
+        display: none;
+    }
+}

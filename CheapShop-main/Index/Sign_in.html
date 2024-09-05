@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../Image/logo4.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="../CSS/Sign_in.css">
+  
+  <title>CheapShop</title>
+</head>
+
+<body>
+  <div class="Sign_in">
+    <div class="container" >
+      <header class="menu">
+        <div class="logo">
+          <a href="banner.html" style="text-decoration: none; color: #ffffff;"><img src="../Image/logo2.png" alt=""
+              class=""><span style="font-family: Sansita_one;">Cheap<strong
+                style="color: #e05314;">Shop</strong></span></a>
+        </div>
+        <ul class="menuSupport">
+          <p>
+            <a href="Main.html"><i class="fas fa-home" style="color: #e03514;"></i> Trang chủ</a>
+            <span>/</span>
+            <a href=""><i class="fas fa-book" style="color: #e03514;"></i> Hướng dẫn</a>
+          </p>
+        </ul>
+        <div class="search">
+          <i class="fas fa-search" style=" position: absolute; top: 30%; left: 1%;"></i>
+          <input type="search" placeholder="Tìm kiếm" class="SearchField">
+        </div>
+        <div class="SignIn">
+          <button class="signin"><a style="text-decoration: none; color: white;" href="Sign_in.html">Đăng
+              nhập</a></button>
+              <button class="signUp"><a href="SignUp.html" style="text-decoration: none; color: #e05314;">Đăng Ký</a></button>
+        </div>
+        <label for="nav-mobile-input" class="nav__bars-btn">
+          <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+        </label>
+
+        <input type="checkbox" hidden id="nav-mobile-input" class="nav-input">
+        <label for="nav-mobile-input" class="nav__overlay"></label>
+        <nav class="nav_mobile">
+          <label for="nav-mobile-input" class="nav__mobile-close"><i class="fa-solid fa-xmark fa-2xl"
+              style="color: #ffffff;"></i></label>
+          <ul class="nav_mobile-list">
+            <ul class="nav_mobile-list-list1">
+              <li><a href="Main.html" class="nav_mobile-link"><i class="fas fa-home" style="color: #e05314;"></i> Trang
+                  chủ</a></li>
+              <li><a href="" class="nav_mobile-link"><i class="fas fa-book" style="color: #e05314;"></i> Hướng dẫn</a>
+              </li>
+            </ul>
+            <ul class="nav_mobile-list-list2">
+              <li><a href="Sign_in.html" class="nav_mobile-link"><i class="fa-solid fa-right-to-bracket"
+                    style="color: #e05314;"></i> Đăng nhập</a></li>
+              <li><a href="" class="nav_mobile-link"><i class="fa-solid fa-arrow-right-to-bracket"
+                    style="color: #e05314;"></i> Đăng Ký</a></li>
+            </ul>
+          </ul>
+        </nav>
+      </header>
+      <div class="Sign_in_body" id="login_form">
+        <form class="form">
+          <p class="text">Điền đầy đủ thông tin đăng nhập</p>
+          <div class="user">
+            <i class="fa-regular fa-user fa-2xl" style="color: #ffffff;line-height: 50px"></i>
+          </div>
+          
+          <p class="mailNpassword" id="username">ID/SDT/GMAIL:<br>
+            <input type="text" name="" id="username_text" onblur="ktratendn();">
+          </p>
+          <span id="ertendn" style="color: red;"></span>
+          <p class="mailNpassword" id="password">PASSWORD: <br>
+            <input type="password" name="" id="password_text" onblur="ktPass()">
+          </p>
+          <span id="ertenpw" style="color: red;"></span>
+    
+          <a href="#" class="Q">Quên mật khẩu?</a>
+          <button class="signin" type="submit"><a href="" style="color: white;">Đăng nhập</a></button>
+          <p class="Q2">Người mới? <a href="SignUp.html">Đăng ký ngay!</a></p>
+          <p class="anotherWay">Đăng nhập bằng cách khác:</p>
+          <button style="color: #ffff;" class="face"><i class="fa-brands fa-facebook-f fa-xl"
+              style="color: #ffffff;"></i> Đăng nhập bằng facebook</button>
+          <p style="color: #ffff; margin: 0;">Hoặc</p>
+          <button class="google"><i class="fa-brands fa-google fa-xl" style="color: #ffffff;"></i> Đăng nhập bằng
+            google</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="../JS/Profile.JS"></script>
+</body>
+
+</html>

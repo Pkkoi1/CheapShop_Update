@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../Image/logo4.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="#">
+  <title>CheapShop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/AllProducts.css">
+  <link rel="stylesheet" href="../CSS/menu.css">
+  <link rel="stylesheet" href="../CSS/footer.css">
+  
+  <style>
+    .dest::after
+    {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color:#bebebe;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid" style="padding: 0; background-color: black; min-width: 100vh;">
+    <header class="menu">
+      <div class="header-menu">
+        <div class="logo">
+          <a href="banner.html" style="text-decoration: none; color: #ffffff;"><img src="../Image/logo2.png" alt=""
+              class=""><span style="font-family: Sansita_one;">Cheap<strong
+                style="color: #e05314;">Shop</strong></span></a>
+        </div>
+        <ul class="menuSupport">
+          <p style="margin: 0;">
+            <a href="Main.html"><i class="fas fa-home" style="color: #e03514;"></i> Trang chủ</a>
+            <span>/</span>
+            <a href=""><i class="fas fa-book" style="color: #e03514;"></i> Hướng dẫn</a>
+          </p>
+        </ul>
+        <div class="search">
+          <i class="fas fa-search" style=" position: absolute; top: 30%; left: 1%;"></i>
+          <input type="search" placeholder="Tìm kiếm" class="SearchField" id="SearchField">
+        </div>
+        
+        <div class="menu-Tool">
+          <div class="cart">
+            <a href="" class="cart_a"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #e05314;"></i></a>
+            <span class="cart_badge">3</span>
+            <!-- Không có sản phẩm trong giỏ .no-cart-->
+            <div class="cart_list">
+              <img src="../Image/Giỏ hàng rỗng.png" alt="" class="no-cart_img">
+              <h4 class="cart-list-item-Title">Sản phẩm đã thêm</h4>
+              <ul class="cart-list-item">
+                <li class="cart-list-item-head">
+                  <img src="../Image/Product1.png" alt="" class="cart-list-item-img">
+                  <div class="cart-list-item-info">
+                    <div class="cart_list-item-des">
+                      <div class="cart_list-item-des-nameNprice">
+                        <h5 class="cart_list-item-name ellipsis">Laptop Dell Inspirm 5420 OGDCGI (i5-1235U/2GD6_MX570)</h5>
+                        <div class="cart_list-item-wrap">
+                          <span class="cart_list-item-price">29.000.000đ</span>
+                          <span class="cart_list-multi">x</span>
+                          <span class="cart_list-item-qty">1</span>
+                        </div>
+                      </div>
+                    </div>
+                      <span class="cart_list-item-remove">Xóa</span>
+                  </div>
+                </li>
+                <li class="cart-list-item-head">
+                  <img src="../Image/Chuột_này_cute.webp" alt="" class="cart-list-item-img">
+                  <div class="cart-list-item-info">
+                    <div class="cart_list-item-des">
+                      <div class="cart_list-item-des-nameNprice">
+                        <h5 class="cart_list-item-name ellipsis">Chuột máy tính DARE-U LM115G Multi-color Sheep</h5>
+                        <div class="cart_list-item-wrap">
+                          <span class="cart_list-item-price">189.000 đ</span>
+                          <span class="cart_list-multi">x</span>
+                          <span class="cart_list-item-qty">2</span>
+                        </div>
+                      </div>
+                    </div>
+                      <span class="cart_list-item-remove">Xóa</span>
+                  </div>
+                </li>
+                <li class="cart-list-item-head">
+                  <img src="../Image/Bàn Phím CƠ ZIYOU K3 Luxury Cao Cấp, Phím Gõ Êm Sử Dụng Trục Cơ Red Switch, Led 16,5 Triệu Màu 10 Chế Độ, Bảo Hành 12t.jpg" alt="" class="cart-list-item-img">
+                  <div class="cart-list-item-info">
+                    <div class="cart_list-item-des">
+                      <div class="cart_list-item-des-nameNprice">
+                        <h5 class="cart_list-item-name ellipsis">Bàn Phím CƠ ZIYOU K3 Luxury Cao Cấp, Phím Gõ Êm Sử Dụng Trục Cơ Red Switch,Led 16,5 Triệu Màu 10 Chế Độ, Bảo Hành 12t</h5>
+                        <div class="cart_list-item-wrap">
+                          <span class="cart_list-item-price">616.000 đ</span>
+                          <span class="cart_list-multi">x</span>
+                          <span class="cart_list-item-qty">1</span>
+                        </div>
+                      </div>
+                    </div>
+                      <span class="cart_list-item-remove">Xóa</span>
+                  </div>
+                </li>
+              </ul>
+              <a href="Cart.html" style="color: #ffff;"><button class="btn">Xem giỏ hàng</button></a>
+            </div>
+            
+          </div>
+          <a href=""><i class="fa-regular fa-circle-user fa-lg" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-solid fa-bell fa-lg" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-solid fa-gear fa-lg" style="color: #ffffff;"></i></a>
+        </div>
+        <div class="menu_nev_mobile_Tool">
+          <a href=""><i class="fas fa-home" style="color:#e05314;"></i></a>
+          <a href=""><i class="fas fa-book" style="color: #e05314;"></i></a>
+          <a href=""><i class="fa-solid fa-bell fa-lg" style="color:  #e05314;"></i></a>
+          <a href=""><i class="fa-solid fa-cart-shopping fa-lg" style="color: #e05314;"></i></a>
+          <a href="banner.html" style="text-decoration: none; color: #ffffff;"><img src="../Image/logo2.png" alt=""
+              class=""></a>
+          <a href=""><i class="fas fa-search fa-lg" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-regular fa-circle-user fa-lg" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-regular fa-circle-question fa-lg" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-solid fa-gear fa-lg" style="color: #ffffff;"></i></a>
+        </div>
+      </div>
+      <div class="menu-list">
+        <label for="nav-list-input" class="nav__bars-btn">
+          <i class="fa-solid fa-bars fa-lg" style="color: #000000; margin-left: 15px;"></i>
+          <span style="color: rgba(0, 0, 0, 0.5); margin-left: 15px;">DANH MỤC</span>
+        </label>
+        <input type="checkbox" hidden id="nav-list-input" class="nav-input">
+        <label for="nav-list-input" class="nav__overlay"></label>
+        <nav class="nav-list">
+          <label for="nav-list-input" class="nav_list-close"><i class="fa-solid fa-xmark fa-2xl"
+              style="color: #ffffff;"></i></label>
+          <ul class="nav_list-list">
+            <li>
+              <a class="nav_list-link" href="LapTop.html">
+                <i class="fa-solid fa-laptop fa-lg" style="color: #e05314;"></i>
+                <div> Laptop</div>
+              </a>
+            </li>
+            <li>
+              <a class="nav_list-link" href="Apples.html">
+                <i class="fa-brands fa-apple fa-xl" style="color: #e05314;"></i>
+                <div> Apple</div>
+              </a>
+            </li>
+            <li>
+              <a class="nav_list-link" href="ManHinh.html">
+                <i class="fa-solid fa-desktop fa-lg" style="color: #e05314;"></i>
+                <div> Desktop</div>
+              </a>
+            </li>
+            <li>
+              <a class="nav_list-link" href="PhuKien.html">
+                <i class="fa-solid fa-headphones fa-lg" style="color: #e05314;"></i>
+                <div> Phụ kiện</div>
+              </a>
+            </li>
+            <li>
+              <a class="nav_list-link" href="LinhKien.html">
+                <i class="fa-solid fa-computer-mouse fa-lg" style="color: #e05314;"></i>
+                <div> Linh kiện</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="menu_list-list" style="background-color: #e05314;">
+        <a class="menu_components" href="LapTop.html">
+          <i class="fa-solid fa-laptop fa-lg LapTop" style="color: #000000;"></i>
+          <div>Laptop</div>
+        </a>
+        <a class="menu_components" href="Apples.html">
+          <i class="fa-brands fa-apple fa-lg" style="color: #000000;"></i>
+          <div>Apple</div>
+        </a>
+        <a class="menu_components" href="ManHinh.html" style="background-color: #ec5c1a;">
+          <i class="fa-solid fa-desktop fa-lg dest" style="color: #bebebe;"></i>
+          <div style="color: #bebebe;">Desktop</div>
+        </a>
+        <a class="menu_components" href="PhuKien.html">
+          <i class="fa-solid fa-headphones fa-lg" style="color: #000000;"></i>
+          <div>Phụ kiện</div>
+        </a>
+        <a class="menu_components" href="LinhKien.html">
+          <i class="fa-solid fa-computer-mouse fa-lg" style="color: #000000;"></i>
+          <div>Linh kiện</div>
+        </a>
+      </div>
+    </header>
+    <div class="container text-center">
+        <div class="link-a">
+            <a href="Main.html">Trang chủ </a>
+            <div><i class="fa-solid fa-chevron-right" style="color: #b1b1b1;"></i></div>
+            <div>sản phẩm nổi bật
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col col-dannhmuc" id="fillter">
+                <div class="manu">
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button manu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          HÃNG SẢN XUẤT
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                            <label class="form-check-label" for="flexCheckDefault">Tất cả</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Asus</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">DELL</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Apple</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">MacBook</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">HP</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                          MỨC GIÁ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                            <label class="form-check-label" for="flexCheckDefault">Tất cả</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Dưới 10 triệu</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">10 triệu - 15 triệu</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">15 triệu - 20 triệu</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">20 triệu - 25 triệu</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">25 triệu - 30 triệu</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Trên 30 triệu</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                
+                </div>
+            </div>
+            <div class="col-xl-10 col-lg-12">
+                <div class="Hot-product" style="background-color: #000000;">
+                    <div id="product-list" class="row row-cols-md-3 row-cols-xl-4 row-cols-lg-6 row-cols-sm-2">
+                      
+                        <!-- <div class="col">
+                        <div class="card h-100" style="background-color: #3a4248; border-radius: 21px;">
+                            <a href="../Index/ProductDetails.html"><img src="../Image/Full-Desktop-IC-3.jpg" class="card-img-top" alt="..." title="Ấn vào để xem chi tiết">
+                            </a>
+                            <div class="card-body">
+                            <div class="card-title" style="font-size: 70%;">Trọn bộ máy tính học online, xem phim, đọc báo giá rẻ, case máy tính 
+                                [ Giá rẻ ]</div>
+                            <p class="card-text">11.000.000 đ -- 13.200.000 đ</p>
+                             <a href="Cart.html"><button class="card-button"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i> Thêm
+                          vào
+                          giỏ hàng</button></a>
+                      </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                        <div class="card h-100" style="background-color: #3a4248; border-radius: 21px;">
+                            <a href="../Index/ProductDetails.html"><img src="../Image/Máy-bộ-HP-EliteDesk-800G1-vitinhthuduc-1-600x600.png" class="card-img-top" alt="..." title="Ấn vào để xem chi tiết">
+                            </a>
+                            <div class="card-body">
+                            <div class="card-title">Máy tính đồng bộ HP EliteDesk 800 G1 USDT</div>
+                            <p class="card-text">1.500.000 đ</p>
+                             <a href="Cart.html"><button class="card-button"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i> Thêm
+                          vào
+                          giỏ hàng</button></a>
+                      </div>
+                        </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="card h-100" style="background-color: #3a4248; border-radius: 21px;">
+                            <a href="../Index/ProductDetails.html"><img src="../Image/Full-Desktop-IC-3.jpg" class="card-img-top" alt="..." title="Ấn vào để xem chi tiết">
+                            </a>
+                            <div class="card-body">
+                                <div class="card-title" style="font-size: 70%;">Trọn bộ máy tính học online, xem phim, đọc báo giá rẻ, case máy tính 
+                                [ Giá rẻ ]</div>
+                                <p class="card-text">11.000.000 đ -- 13.200.000 đ</p>
+                                 <a href="Cart.html"><button class="card-button"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i> Thêm
+                          vào
+                          giỏ hàng</button></a>
+                      </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" style="background-color: #3a4248; border-radius: 21px;">
+                            <a href="../Index/ProductDetails.html"><img src="../Image/Máy-bộ-HP-EliteDesk-800G1-vitinhthuduc-1-600x600.png" class="card-img-top" alt="..." title="Ấn vào để xem chi tiết">
+                            </a>
+                            <div class="card-body">
+                                <div class="card-title">Máy tính đồng bộ HP EliteDesk 800 G1 USDT</div>
+                                <p class="card-text">1.500.000 đ</p>
+                                 <a href="Cart.html"><button class="card-button"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i> Thêm
+                          vào
+                          giỏ hàng</button></a>
+                      </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="card h-100" style="background-color: #3a4248; border-radius: 21px;">
+                            <a href="../Index/ProductDetails.html"><img src="../Image/Full-Desktop-IC-3.jpg" class="card-img-top" alt="..." title="Ấn vào để xem chi tiết">
+                            </a>
+                            <div class="card-body">
+                                <div class="card-title" style="font-size: 70%;">Trọn bộ máy tính học online, xem phim, đọc báo giá rẻ, case máy tính 
+                                [ Giá rẻ ]</div>
+                                <p class="card-text">11.000.000 đ -- 13.200.000 đ</p>
+                                 <a href="Cart.html"><button class="card-button"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i> Thêm
+                          vào
+                          giỏ hàng</button></a>
+                      </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" style="background-color: #3a4248; border-radius: 21px;">
+                            <a href="../Index/ProductDetails.html"><img src="../Image/Máy-bộ-HP-EliteDesk-800G1-vitinhthuduc-1-600x600.png" class="card-img-top" alt="..." title="Ấn vào để xem chi tiết">
+                            </a>
+                            <div class="card-body">
+                                <div class="card-title">Máy tính đồng bộ HP EliteDesk 800 G1 USDT</div>
+                                <p class="card-text">1.500.000 đ</p>
+                                 <a href="Cart.html"><button class="card-button"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i> Thêm
+                          vào
+                          giỏ hàng</button></a>
+                      </div>
+                            </div>
+                        </div> -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div class="footer_content">
+        <h5>Thông tin</h5>
+        <p>Thông tin về chúng tôi</p>
+        <p>Thông tin liên hệ</p>
+        <p>Chi nhánh của shop</p>
+        <p>Hỏi & Đáp</p>
+      </div>
+      <div class="footer_content">
+        <h5>Chính sách Mua hàng và Bảo hành</h5>
+        <p>Quy định chung</p>
+        <p>Chính sách Vận chuyển và lắp đặt</p>
+        <p>Chính sách Bảo mật</p>
+        <p>Chính sách Bảo Hành</p>
+        <p>Chỉnh sách Giá cả và Hình thức thanh toán</p>
+        <p>Chính sách Đổi trả và Hoàn tiền</p>
+      </div>
+      <div class="footer_content">
+        <h5>Hỗ trợ khách hàng</h5>
+        <p>Ưu đãi</p>
+        <p>Trung tâm bảo hành</p>
+        <p>Thanh toán và giao hàng</p>
+        <p>Sữa chữa và bảo trì</p>
+        <p>Doanh nghiệp mật thiết</p>
+      </div>
+      <div class="footer_content">
+        <h5>Địa chỉ: </h5>
+        <p>12 Nguyễn Văn Bảo, Phường 4, Quận Gò Vấp, TP.HCM</p>
+        <h5>Liên hệ:</h5>
+        <p><b>Email:</b> cheapshopgv@gmail.com</p>
+        <p><b>SĐT:</b> 0123456789</p>
+        <p style="color: #ea4335;">Hotline: 1234.5678</p>
+      </div>
+      <img src="../Image/logo4.png" alt="">
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.4/axios.min.js" 
+    integrity="sha512-6VJrgykcg/InSIutW2biLwA1Wyq+7bZmMivHw19fI+ycW0jIjsadm8wKQQLlfv3YUS4owfMDlZU38NtaAK6fSg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      async function getProducts() {
+          try {
+              const response = await axios.get('http://localhost:3000/products');
+              const products = response.data;
+              
+              const productList = document.getElementById('product-list');
+              
+              products.forEach(product => {
+                  const productHTML = `
+                      <div class="col">
+                          <div class="card h-100" style="background-color: #3a4248; border-radius: 21px;">
+                              <a href="../Index/ProductDetails.html"><img src="${product.image}" class="card-img-top" alt="${product.name}" title="Ấn vào để xem chi tiết">
+                              </a>
+                              <div class="card-body">
+                                  <div class="card-title">${product.name}</div>
+                                  <p class="card-text">${product.price.toLocaleString('vi-VN')} đ</p>
+                                  <a href="Cart.html"><button class="card-button"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i> Thêm vào giỏ hàng</button></a>
+                              </div>
+                          </div>
+                      </div>`;
+                  
+                  productList.innerHTML += productHTML;
+              });
+          } catch (error) {
+              console.error('Error fetching products:', error);
+          }
+      }
+
+      getProducts();
+  </script>
+</body>
+
+</html>

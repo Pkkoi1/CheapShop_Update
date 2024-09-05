@@ -1,0 +1,256 @@
+
+body
+{
+    margin: 0px;
+    width: 100%;
+}
+.container
+{
+    min-width: 100%;
+    /* min-height: 100vh; */
+   
+}
+.justify-content-center
+{
+    margin: 25px 150px 0 150px;
+}
+.link-a
+{
+    color: #b1b1b1;
+    display: flex;
+    flex-direction: row;
+    font-size: 80%;
+    gap: 20px;
+    align-items: baseline;
+    margin: 10px 0 0 2vh;
+}
+.link-a a
+{
+    text-decoration: none;
+    color: #b1b1b1;
+
+    
+}
+.link-a a:hover
+{
+color: white;
+}
+
+.Hot-product
+{
+    /* background-color: #9a9898; */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px #9a9898 solid;
+    margin-top: 20px;
+}
+.Hot-product-text
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffff;
+}
+.Hot-product-text-content
+{
+    font-size: 1.4rem;
+    font-size: Sarabun;
+}
+.card-text
+{
+    color: #e05314;
+    text-align: left;
+    font-weight: bold;
+    font-size: 70%;
+}
+.card-title
+{
+    color: #ffff; 
+    text-align: left;
+    font-size: 70%;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    -webkit-line-clamp: 2; /* Hiển thị tối đa 2 dòng */
+    line-clamp: 2; /* Tiêu chuẩn cho các trình duyệt hỗ trợ */
+    height: calc(2 * 1.2em); /* Điều chỉnh chiều cao tương ứng với 2 dòng */
+    line-height: 1.2em;
+}
+.card-button{
+    color: #ffff; 
+    border: 0px;
+    border-radius: 5%;
+    background-color: #e05314;
+    font-size: 70%;
+    padding: 5px;
+    
+    top: 90%;
+    left: 20%; 
+}
+.card-button:hover
+{
+    background-color: #f17c45;
+    transform: scale(1.02);
+    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5); */
+}
+.col-xs-2-4
+{
+    position: relative;
+    list-style-type: none;
+    max-height: 20%;
+    max-width: 20%;
+   
+}
+
+.card-img-top
+{
+    transition: transform 0.3s ease-in-out;
+    height: 27vh;
+}
+.card-img-top:hover
+{
+    transform: scale(1.02);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width : 1040px)
+{
+    .search
+    {
+        display: none;
+    }
+    .menu-Tool
+    {
+        display: none;
+    }
+    .menuSupport
+    {
+        display: none;
+    }
+    .cart
+    {
+        display: none;
+    }
+    .menu_nev_mobile_Tool
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100vh;
+        align-items: center;
+    }
+    .logo
+    {
+        display: none;
+    }
+    .justify-content-center
+    {
+        margin: 0;
+    }
+    .Hot-product
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.list_Item
+{
+    padding: 0px;
+    margin: 0px;
+}
+.row>*{
+    margin-bottom: 24px;
+  
+}
+.ellipsis
+{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.col-dannhmuc
+{
+    width: fit-content;
+}
+.manu
+{
+    margin-top: 30px;
+   
+}
+.manu_btn
+{
+    background-color: #bebebe;
+    border: 0;
+}
+.manu_btn:hover
+{
+    background-color: #bebebe;
+}
+.accordion
+{
+    --bs-accordion-active-bg: #bebebe;
+    --bs-accordion-border-color: rgb(190, 190, 190);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(190, 190, 190, 0.25);
+}
+.accordion-item
+{
+    background-color: #bebebe;
+}
+.form-check-input:checked {
+    background-color: #e05314;
+    border-color: #e05314;
+
+}
+
+.form-check-input:checked + .form-check-label
+{
+    color: #e05314;
+}
+.form-check-input{
+
+    background-color: #bebebe;
+    border: 1px #000 solid;
+}
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: none;
+}
+.accordion-button
+{
+    background-color: #bebebe;
+}
+.Sale-product-mark
+{
+    background-color: #f0f416;
+    width: 80px;
+    height: 34px;
+    color: #ef0b0b;
+    padding-top: 2%;
+    position: absolute;
+    top: 0px;
+    font-size: 80%;
+    border-top-left-radius: 21px;
+}
+.btn
+{
+    /* border-radius: 97px; */
+    background-color: #e05314;
+    border: 0px;
+    color: white;
+    width: 222px;
+    height: 44px;
+    transform: translateX(27vh);
+    margin-bottom: 3%;
+}
+.btn:hover
+{
+    background-color: #e03514;
+    color: white;
+}
+.menu_components {
+    background-color: #e05314;
+    border: 0px;
+
+}

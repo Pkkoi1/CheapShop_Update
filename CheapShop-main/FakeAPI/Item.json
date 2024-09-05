@@ -1,0 +1,250 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "MSI Gaming Leopard GL65 10SDK-242VN i7 10750H",
+            "price": 33000000,
+            "image": "../Image/MSI Gaming Leopard GL65 10SDK-242VN i7 10750H.jpg",
+            "productType": "Laptop",
+            "discount": 0,
+            "brand": "MSI"
+        },
+        {
+            "id": 2,
+            "name": "Laptop Dell Inspirm 5420 OGDCGI (i5-1235U/2GD6_MX570)",
+            "price": 29000000,
+            "image": "../Image/Product1.png",
+            "productType": "Laptop",
+            "discount": 0,
+            "brand": "Dell"
+        },
+        {
+            "id": 3,
+            "name": "Laptop Apple MacBook Air M1 2020 16GB/256GB/7-core GPU (Z12A0004Z)",
+            "price": 21000000,
+            "image": "../Image/Laptop Apple MacBook Air M1.jpg",
+            "productType": "Laptop",
+            "discount": 0,
+            "brand": "Macbook"
+        },
+        {
+            "id": 4,
+            "name": "Trọn bộ máy tính học online, xem phim, đọc báo giá rẻ, case máy tính [ Giá rẻ ]",
+            "price": 11000000,
+            "image": "../Image/Full-Desktop-IC-3.jpg",
+            "productType": "Desktop",
+            "discount": 0,
+            "brand": "Intel"
+        },
+        {
+            "id": 5,
+            "name": "Máy tính đồng bộ HP EliteDesk 800 G1 USDT",
+            "price": 1500000,
+            "image": "../Image/Máy-bộ-HP-EliteDesk-800G1-vitinhthuduc-1-600x600.png",
+            "productType": "Desktop",
+            "discount": 0,
+            "brand": "HP"
+        },
+        {
+            "id": 6,
+            "name": "Chuột máy tính DARE-U LM115G Multi-color Sheep",
+            "price": 189000,
+            "image": "../Image/Chuột_này_cute.webp",
+            "productType": "Accessory",
+            "discount": 0,
+            "brand": "DARE-U"
+        },
+        {
+            "id": 7,
+            "name": "Laptop Acer Aspire 5 A515-45-R74Z",
+            "price": 25000000,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT3bzHB2QJvu5yN6sYEEEBCuuLhSOrn4J74A&s",
+            "productType": "Laptop",
+            "discount": 0,
+            "brand": "ACER"
+        },
+        {
+            "id": 8,
+            "name": "Laptop ASUS ZenBook 14 UX425EA",
+            "price": 30000000,
+            "image": "https://nguyencongpc.vn/photos/17/Laptop-Asus-ZenBook-14-UX425EA-BM069T-1.JPG",
+            "productType": "Laptop",
+            "discount": 0,
+            "brand": "ASUS"
+        },
+        {
+            "id": 9,
+            "name": "Máy tính để bàn HP Pavilion Gaming",
+            "price": 15000000,
+            "image": "https://vitinhtrungtin.com/hoanghung/36/images/HP-ProDesk-400G7-MT-22C48PA-03.jpg",
+            "productType": "Desktop",
+            "discount": 0,
+            "brand": "HP"
+        },
+        {
+            "id": 10,
+            "name": "Màn hình Dell UltraSharp U2720Q",
+            "price": 20000000,
+            "image": "https://anphat.com.vn/media/product/32867_1.jpg",
+            "productType": "Accessory",
+            "discount": 0,
+            "brand": "Dell"
+        },
+        {
+            "id": 11,
+            "name": "Bàn phím cơ Corsair K70 RGB MK.2",
+            "price": 3500000,
+            "image": "https://tinhocanhphat.vn/media/product/11002_b__n_ph__m_v__n_ph__ng_c___d__y_v__n_ph__ng_corsair_k70_mk_2_blk_mx_low_profile_rgb_mx_speed__c__i_.jpg",
+            "productType": "Accessory",
+            "discount": 0,
+            "brand": "Corsair"
+        },
+        {
+            "id": 12,
+            "name": "Chuột gaming Logitech G502 HERO",
+            "price": 1200000,
+            "image": "https://bizweb.dktcdn.net/100/329/122/products/chuot-gaming-logitech-high-performance-hero-g502-2.png?v=1723305899817",
+            "productType": "Accessory",
+            "discount": 0,
+            "brand": "Logitech"
+        },
+        {
+            "id": 13,
+            "name": "Laptop MSI GF63 Thin 10SCSR",
+            "price": 22000000,
+            "image": "https://laptoptitan.vn/wp-content/uploads/2021/09/Msi-GF65-10ser-01.jpg",
+            "productType": "Laptop",
+            "discount": 0,
+            "brand": "MSI"
+        },
+        {
+            "id": 14,
+            "name": "Máy in Brother HL-L2350DW",
+            "price": 4000000,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLdlNjCf2nvPzEhoh5kIhNRSbobKavc-V39w&s",
+            "productType": "Accessory",
+            "discount": 0,
+            "brand": "Brother"
+        },
+        {
+            "id": 15,
+            "name": "Bộ sạc Anker PowerPort 6",
+            "price": 800000,
+            "image": "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/-/s-l1600.jpg",
+            "productType": "LK",
+            "discount": 0,
+            "brand": "Anker"
+        },
+        {
+            "id": 16,
+            "name": "Laptop Lenovo ThinkPad X1 Carbon Gen 9",
+            "price": 38000000,
+            "image": "https://bizweb.dktcdn.net/100/416/452/files/314075-01-x1-carbon-g9-01.jpg?v=1627893546598",
+            "productType": "Laptop",
+            "discount": 0,
+            "brand": "Lenovo"
+        },
+        {
+            "id": 17,
+            "name": "Màn hình ASUS TUF Gaming VG27AQ",
+            "price": 7000000,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTREH4nHI3uRMVBofv2fGxl9mFSkNQI05OllQ&s",
+            "productType": "Accessory",
+            "discount": 0,
+            "brand": "ASUS"
+        },
+        {
+            "id": 18,
+            "name": "Máy tính đồng bộ Dell Optiplex 3060",
+            "price": 12000000,
+            "image": "https://atmvietnam.com.vn/media/product/1142_42oc360001.jpg",
+            "productType": "Desktop",
+            "discount": 0,
+            "brand": "Dell"
+        },
+        {
+            "id": 19,
+            "name": "Máy tính đồng bộ Dell Optiplex 3060",
+            "price": 12000000,
+            "image": "https://atmvietnam.com.vn/media/product/1142_42oc360001.jpg",
+            "productType": "Desktop",
+            "discount": 0,
+            "brand": "Dell"
+        },
+        {
+            "id": 20,
+            "name": "Laptop Gaming Asus ROG Strix G15 G513IH-HN015W Geforce GTX 1650 4GB AMD R7 4800H 8GB 512GB 15.6″ 144Hz FHD IPS 4 Zones Win 11",
+            "price": 21990000,
+            "image": "../Image/Laptop Gaming Asus ROG.jpg",
+            "productType": "Laptop",
+            "discount": 20,
+            "brand": "ASUS"
+        }
+        ,
+        {
+            "id": 21,
+            "name": "MacBook Pro 16'' 2021 M1 Pro Ram 32GB",
+            "price": 76990000,
+            "image": "../Image/MacBook Pro.jpg",
+            "productType": "Laptop",
+            "discount": 10,
+            "brand": "Macbook"
+        },
+        {
+            "id": 22,
+            "name": "PC E-Power Office 04 Core i3 10105 3.7GHz - 4.4GHz / 8 GB / 240 GB / 400W",
+            "price": 7590000,
+            "image": "../Image/PC E-Power Office 04 Core i3.jpg",
+            "productType": "Desktop",
+            "discount": 20,
+            "brand": "E-Power"
+        }
+        ,
+        {
+            "id": 23,
+            "name": "Màn hình Viewsonic VX2480-2K-SHD 23.8",
+            "price": 2590000,
+            "image": "../Image/Màn hình Viewsonic VX2480-2K-SHD 23.8.jpg",
+            "productType": "Desktop",
+            "discount": 25,
+            "brand": "Viewsonic"
+        },
+        {
+            "id": 24,
+            "name": "Tai nghe SoundMax AH-335",
+            "price": 650000,
+            "image": "../Image/Tai nghe SoundMax AH-335.jpg",
+            "productType": "Accessory",
+            "discount": 15,
+            "brand": "SoundMax"
+        }
+        ,
+        {
+            "id": 25,
+            "name": "Bàn Phím CƠ ZIYOU K3 Luxury Cao Cấp, Phím Gõ Êm Sử Dụng Trục Cơ Red Switch, Led 16,5 Triệu Màu 10 Chế Độ, Bảo Hành 12t",
+            "price": 1100000,
+            "image": "https://product.hstatic.net/1000131176/product/1_5df716563fee436b906d7e55813cb5e6_master.jpg",
+            "productType": "Laptop",
+            "discount": 44,
+            "brand": "ZIYOU"
+        },
+        {
+            "id": 26,
+            "name": "Laptop Gaming Asus ROG Strix G15 G513IH-HN015W Geforce GTX 1650 4GB AMD R7 4800H 8GB 512GB 15.6″ 144Hz FHD IPS 4 Zones Win 11",
+            "price": 21990000,
+            "image": "../Image/Laptop Gaming Asus ROG.jpg",
+            "productType": "Laptop",
+            "discount": 20,
+            "brand": "ASUS"
+        },
+        {
+            "id": 27,
+            "name": "MacBook Pro 16'' 2021 M1 Pro Ram 32GB",
+            "price": 76990000,
+            "image": "../Image/MacBook Pro.jpg",
+            "productType": "Laptop",
+            "discount": 10,
+            "brand": "Macbook"
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+a
+{
+    text-decoration: none;
+}
+body
+{
+    margin: 0px;
+    width: 100%;
+}
+.container
+{
+    min-width: 100%;
+    /* min-height: 100vh; */
+   
+}
+.justify-content-center
+{
+    margin: 25px 150px 0 150px;
+}
+.link-a
+{
+    color: #b1b1b1;
+    display: flex;
+    flex-direction: row;
+    font-size: 80%;
+    gap: 20px;
+    align-items: baseline;
+    margin: 5vh 0 2vh 2vh;
+}
+.link-a a
+{
+    text-decoration: none;
+    color: #b1b1b1;
+    font-size: 90%;
+    
+}
+.link-a a:hover
+{
+color: white;
+    
+}
+
+.row>*{
+    margin-top: 10px;
+}
+.cart_products_head
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    border-bottom: 1px #000 solid;
+    padding: 10px;
+}
+.cart_products-item-head
+{
+    margin: 2vh;
+}
+.cart_product-item
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000;
+}
+.cart_product-item-price, .total
+{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: #000;
+    font-weight: bold;
+}
+
+.cart_product-item-img
+{
+    width: 9vh;
+    height: 9vh;
+}
+.cart_product-item-title
+{
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+    width: 100vh;
+}
+.cart_product-item-AR
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1vh;
+}
+.cart_product-item-quantity
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.qty-btn {
+    height: 3vh;
+    width: 3vh;
+    border: 0;
+    text-align: center;
+    background-color: #f8f8fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_product-item-qty-decre
+{
+
+    border: 1px rgba(58, 66, 72,0.5) solid;
+    border-right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.cart_product-item-qty-decre:hover
+{
+    background-color: rgb(58, 66, 72, 0.5);
+}
+.cart_product-item-qty-incre
+{
+    border: 1px rgba(58, 66, 72,0.5) solid;
+    border-left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cart_product-item-qty-incre:hover
+{
+    background-color: rgb(58, 66, 72, 0.5);
+}
+.empty
+{
+    height: 3vh;
+    width: 2.2vh;
+}
+.cart_product-item-qty
+{
+    height: 3vh;
+    width: 3vh;
+    text-align: center;
+    background-color: #f8f8fc;
+    border-top: 1px rgba(58, 66, 72,0.5) solid;
+    border-bottom: 1px rgba(58, 66, 72,0.5) solid;
+}
+.cart_product-item-remove
+{
+     height: 3vh;
+    border: 0;
+    background-color: #b1b1b1;
+    text-align: center;
+    color: #e05314;
+    border-radius: 20px;
+}
+.cart_product-item-remove:hover
+{
+    background-color: #a4a4a4;
+}
+.cart_product-item-rebtn
+{
+    display: flex;
+    flex-direction: row;
+}
+.form-check-input:checked {
+    background-color: #e05314;
+    border-color: #e05314;
+
+}
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: none;
+}
+.pay-lb
+{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    background-color: #b1b1b1;
+    padding: 2vh;
+    border-radius: 10px;
+}
+.pay-title
+{
+    margin-bottom: 1vh;
+}
+.pay-build
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.provisional
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pay-total
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.VAT
+{
+    display: flex;
+   justify-content: flex-end;
+    font-size: 70%;
+    color: #757575;
+}
+.ellipsis
+{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.buy
+{
+    margin: 2vh;
+    border: 0;
+    background-color: #e05314;
+    color: #ffff;
+    border-radius: 5px;
+    margin: 10%;
+    width: 44%;
+    height: 5vh;
+    transform: translateX(40%);
+}
+.buy:hover
+{
+    background-color: #e03514;
+}
+.btn
+{
+    /* border-radius: 97px; */
+    background-color: #e05314;
+    border: 0px;
+    color: white;
+    width: 222px;
+    height: 44px;
+    transform: translateX(27vh);
+    margin-bottom: 3%;
+}
+.btn:hover
+{
+    background-color: #e03514;
+    color: white;
+}

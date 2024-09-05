@@ -1,0 +1,44 @@
+
+body
+{
+    margin: 0px;
+    width: 100%;
+}
+
+.container
+{
+    min-width: 100%;
+    z-index: 1;
+    height: 100vh;
+    position: relative;
+  
+}
+.justify-content-center
+{
+    margin: 25px 150px 0 150px;
+}
+.container::before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(../Image/Black\ Photographic\ Technological\ Products\ YouTube\ Thumbail.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    content: '';
+    filter: blur(5px);
+    opacity: 0.9;
+}
+.row>*{
+    margin-top: 10px;
+}
+.ellipsis
+{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
